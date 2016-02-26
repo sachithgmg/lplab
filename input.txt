@@ -1,0 +1,17 @@
+ Program for recursive descent parsing
+ Enter the expression And place ; at the end
+Press Ctrl-Z to terminate
+a*b+c;
+ 
+ Identifier: a
+ Identifier: b
+Arithmetic Operator: *
+ Identifier: c
+Arithmetic Operator: +
+5*7;
+ 
+ Number: 5
+ Number: 7
+Arithmetic Operator: *
+*2;
+line 5, Syntax error
